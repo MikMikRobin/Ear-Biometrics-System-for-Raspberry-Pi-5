@@ -8,18 +8,6 @@ This package implements a comprehensive ear biometrics system with:
 - **Target Platform**: Raspberry Pi OS (64-bit, "Bookworm") with Python 3.11.x
 - **AI Models**: YOLOv12 for ear detection, EfficientNetLite-4 for feature extraction, k-NN for classification
 
-## 🎯 What's New
-
-### ✅ Completed Changes
-- **✅ Renamed Models**: `efficientnet_b5` → `efficientnet_retrained_final` (now default)
-- **✅ Renamed Files**: 
-  - `ear_biometrics_v2.py` → `biometric_pipeline.py`
-  - `universal_model_loader.py` → `model_loader.py`
-  - `ear_biometrics_GUI_Linux_v3.py` → `ear_biometrics_gui.py`
-- **✅ Updated Imports**: All files use new module names
-- **✅ Self-Contained Package**: Everything needed in one folder
-- **✅ Default Configuration**: TIMM Models with `efficientnet_retrained_final`
-
 ### 🚀 Quick Start Commands
 
 #### Windows:
@@ -134,3 +122,4 @@ The system will start with `efficientnet_retrained_final` as the default model, 
 **Ready to Deploy**: ✅ Yes  
 **Self-Contained**: ✅ Yes  
 **Cross-Platform**: ✅ Windows/Linux/Mac  
+
