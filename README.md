@@ -230,7 +230,7 @@ The feature extraction model uses EfficientNetLite-4 as the pre-trained base:
 ## 🏆 Model Performance
 
 Default model rankings (accuracy on test datasets):
-- 🟢 **efficientnet_retrained_final**: 84.1% (Recommended)
+- 🟢 **efficientnet_retrained_final**: 95.61% (Recommended)
 - 🟢 efficientnetv2_m: 85.2%
 - 🟢 regnetx_32gf: 83.7%
 - 🟡 efficientnet_b7: 78.1%
@@ -253,3 +253,4 @@ Default model rankings (accuracy on test datasets):
 ---
 
 **🎉 Ready to use! Run `python run_ear_biometrics.py` to start.**
+
