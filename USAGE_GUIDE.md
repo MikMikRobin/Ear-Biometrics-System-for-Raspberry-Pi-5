@@ -1,4 +1,4 @@
-# YOLOv8 Ear Detection Finetuning Guide
+# YOLOv12 Ear Detection Finetuning Guide
 
 ## Quick Start
 
@@ -45,3 +45,4 @@ yolo_dataset/
 ```bash
 python finetune_ear_model.py --epochs 50 --batch 8 --lr0 0.0001
 ```
+
